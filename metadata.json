@@ -1,0 +1,8 @@
+{
+  "name": "BeastFeast",
+  "description": "A soft, Gen-Z friendly cafe website with a warm aesthetic, featuring a card-based menu and a Gemini-powered meal recommendation assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
