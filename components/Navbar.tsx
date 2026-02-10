@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
         }`}>
         <div className="max-w-7xl mx-auto flex items-center justify-between bg-white/40 backdrop-blur-lg border border-[#2D241E]/5 rounded-3xl px-6 py-3 shadow-sm">
           <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <img src="/icon/icon.webp" alt="BeastFeast" className="w-8 h-8 md:w-10 md:h-10" />
+            <img src="./icon.webp" alt="BeastFeast" className="w-8 h-8 md:w-10 md:h-10" />
             <span className="text-2xl font-serif-boutique italic font-medium tracking-tight text-[#2D241E]">beastfeast.</span>
           </Link>
 

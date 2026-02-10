@@ -49,7 +49,7 @@ const AiAssistant: React.FC = () => {
         <div className="absolute bottom-20 right-0 w-[calc(100vw-2rem)] md:w-[380px] max-w-md h-[70vh] md:h-[550px] bg-white rounded-2xl md:rounded-[3rem] shadow-2xl border border-[#2D241E]/5 flex flex-col overflow-hidden animate-in fade-in slide-in-from-bottom-10">
           <div className="bg-[#2D241E] p-4 md:p-8 text-[#FAF9F6] flex justify-between items-center flex-shrink-0">
             <div className="flex items-center gap-2 md:gap-4 min-w-0">
-              <img src="/icon/icon.webp" alt="BeastFeast" className="w-8 h-8 md:w-12 md:h-12 rounded-lg md:rounded-2xl flex-shrink-0" />
+              <img src="./icon.webp" alt="BeastFeast" className="w-8 h-8 md:w-12 md:h-12 rounded-lg md:rounded-2xl flex-shrink-0" />
               <div className="min-w-0">
                 <h3 className="text-lg md:text-xl font-serif-boutique italic truncate">beastbuddy.</h3>
                 <p className="text-[8px] md:text-[10px] uppercase tracking-widest opacity-60">Here to Help</p>
@@ -131,7 +131,7 @@ const AiAssistant: React.FC = () => {
         {isOpen ? (
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
         ) : (
-          <img src="/icon/icon.webp" alt="BeastFeast" className="w-8 h-8 rounded-lg" />
+          <img src="./icon.webp" alt="BeastFeast" className="w-8 h-8 rounded-lg" />
         )}
       </button>
     </div>

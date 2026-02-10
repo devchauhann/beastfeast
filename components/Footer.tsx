@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
 
           <div className="space-y-8">
             <div className="flex items-center gap-3">
-              <img src="/icon/icon.webp" alt="BeastFeast" className="w-10 h-10" />
+              <img src="./icon.webp" alt="BeastFeast" className="w-10 h-10" />
               <h4 className="text-3xl font-serif-boutique italic tracking-tight">beastfeast.</h4>
             </div>
             <p className="text-sm font-light text-[#2D241E]/60 leading-relaxed">
@@ -93,7 +93,7 @@ const Footer: React.FC = () => {
             <div className="flex flex-col md:flex-row md:items-center gap-6 md:gap-10 items-center md:items-center">
               {/* Swiggy Partner */}
               <a href="https://www.swiggy.com/city/meerut/beast-feast-cafe-partapur-meerut-rest993848?utm_source=GooglePlaceOrder&utm_campaign=GoogleMap&is_retargeting=true&media_source=GooglePlaceOrder" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 transition-all duration-500 cursor-pointer w-full md:w-auto justify-center md:justify-start">
-                <img src="/icon/swiggy.svg" alt="Swiggy" className="h-6 w-auto shrink-0" />
+                <img src="./swiggy.svg" alt="Swiggy" className="h-6 w-auto shrink-0" />
                 <div className="flex flex-col">
                   <span className="text-[8px] font-bold uppercase tracking-widest text-[#2D241E]/40">Swiggy</span>
                   <span className="text-[10px] font-bold text-[#FE5005]">4.6 ★</span>
@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
 
               {/* Zomato Partner */}
               <a href="https://www.zomato.com/meerut/beast-feast-mohkam-pur/order" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 transition-all duration-500 cursor-pointer w-full md:w-auto justify-center md:justify-start">
-                <img src="/icon/zomato.svg" alt="Zomato" className="h-6 w-auto shrink-0" />
+                <img src="./zomato.svg" alt="Zomato" className="h-6 w-auto shrink-0" />
                 <div className="flex flex-col">
                   <span className="text-[8px] font-bold uppercase tracking-widest text-[#2D241E]/40">Zomato</span>
                   <span className="text-[10px] font-bold text-[#CB202D]">4.6 ★</span>
