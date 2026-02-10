@@ -43,16 +43,19 @@ const Hero: React.FC = () => {
             </div>
 
             {/* Swiggy and Zomato Order Links */}
-            <div className="flex items-center justify-center md:justify-start gap-6 flex-wrap">
-              <a href="https://www.swiggy.com/city/meerut/beast-feast-cafe-partapur-meerut-rest993848?utm_source=GooglePlaceOrder&utm_campaign=GoogleMap&is_retargeting=true&media_source=GooglePlaceOrder" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 transition-all duration-500 cursor-pointer group">
-                <img src="./swiggy.svg" alt="Swiggy" className="h-7 md:h-9 w-auto shrink-0" />
-              </a>
+            <div className="flex flex-col gap-4">
+              <h3 className="text-sm font-bold uppercase tracking-widest text-[#2D241E]/60 text-center md:text-left">Order on</h3>
+              <div className="flex items-center justify-center md:justify-start gap-6 flex-wrap">
+                <a href="https://www.swiggy.com/city/meerut/beast-feast-cafe-partapur-meerut-rest993848?utm_source=GooglePlaceOrder&utm_campaign=GoogleMap&is_retargeting=true&media_source=GooglePlaceOrder" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 transition-all duration-500 cursor-pointer group">
+                  <img src="./swiggy.svg" alt="Swiggy" className="h-7 md:h-9 w-auto shrink-0 transition-all" />
+                </a>
 
-              <img src="./arrow.svg" alt="" className="h-9 md:h-9 w-auto opacity-30" />
+                <img src="./arrow.svg" alt="" className="h-7 md:h-9 w-auto opacity-30" />
 
-              <a href="https://www.zomato.com/meerut/beast-feast-mohkam-pur/order" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 transition-all duration-500 cursor-pointer group">
-                <img src="./zomato.svg" alt="Zomato" className="h-7 md:h-9 w-auto shrink-0" />
-              </a>
+                <a href="https://www.zomato.com/meerut/beast-feast-mohkam-pur/order" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 transition-all duration-500 cursor-pointer group">
+                  <img src="./zomato.svg" alt="Zomato" className="h-7 md:h-9 w-auto shrink-0 transition-all" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
